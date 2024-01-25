@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /WebServices/
+RewriteRule ^RestaurantReview/?$ CST8259Lab7Part1/RestaurantReviews.php [NC,L]
+RewriteRule ^RestaurantReview/GetRestaurantNames/?$ CST8259Lab7Part1/RestaurantReviews.php?action=GetRestaurantNames [NC,L]
+RewriteRule ^RestaurantReview/([a-z0-9]+)$ CST8259Lab7Part1/RestaurantReviews.php?id=$1 [NC,L]
