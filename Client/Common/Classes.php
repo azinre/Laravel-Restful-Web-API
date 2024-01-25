@@ -33,6 +33,7 @@ class Restaurant{
         $this->cost = new Cost;
         $this->rating = new Rating;  
     }
+    
 } 
 
 

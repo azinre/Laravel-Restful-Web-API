@@ -26,6 +26,7 @@ function displayRestaurantDataOnPage($rest)
     $drpCostMin = $rest->cost->minCost;
 }
 
+
 function getRestaurantDatafromPage( )
 {
     global $txtStreetAddress,$txtCity, $txtProvinceState, $txtPostalZipCode;

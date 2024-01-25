@@ -10,7 +10,9 @@ function GetRestaurantNames()
         $names[] = (string)$rest->name;
     }
     return $names;
+
 }
+
 function GetAllRestaurantReviews()
 {
     $appConfigs = parse_ini_file("Lab7.ini");
